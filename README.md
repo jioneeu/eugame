@@ -5,8 +5,8 @@
 
 EuGame is a gem that supports set of CLI/TUI based 2d games.
 
-Currently supported games
-- PvP Tic-Tac-Toe
+## Games
+- PvP TicTacToe <i>(last updated: 2020-05-31)</i>
 
 ## Install
 ```
