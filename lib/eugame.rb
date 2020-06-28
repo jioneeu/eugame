@@ -1,6 +1,11 @@
 require 'gamelib/gamelib.rb'
+
+# tic tac toe
 require 'gamelib/ttt/ttt.rb'
 require 'gamelib/ttt/colorize.rb'
+
+# manstermind
+#require 'gamelib/mastermind/mastermind.rb' 
 
 module EUGAME
   class EuGame

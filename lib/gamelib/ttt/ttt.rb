@@ -18,10 +18,16 @@ class TicTacToe
   end
 
   def play
-    while true do
+    for i in 0...9 do
       display_board
       turn
       return if !@playing
+      if i==8 
+        system('clear')
+        display_board
+        puts "%15s" % "Draw!"
+        break
+      end
       system('clear')
     end
   end
@@ -83,5 +89,7 @@ class TicTacToe
       puts "%15s" % "#{@@players[@@p_turn.to_sym][:name]} won"
       @playing = false;
     end
+
+    # draw
   end
 end

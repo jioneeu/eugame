@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "eugame"
-  s.version       = "0.0.1"
+  s.version       = "0.0.2"
   s.date          = "2020-05-31"
   s.summary       = "EuGame is a gem that supports various TUI 2d games."
   s.author        = ["Jione Eu"]
